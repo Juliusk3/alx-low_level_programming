@@ -35,9 +35,6 @@ _putchar(' ');
 _putchar((k / 100) + '0')
 _putchar(((k / 10) % 10) + '0');
 _putchar((k % 10) + '0');
-}
-}
-_putchar('\n');
-}
+_putchar('\n')
 }
 }
