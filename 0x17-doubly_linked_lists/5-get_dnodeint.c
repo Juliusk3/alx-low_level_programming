@@ -13,5 +13,5 @@ dlistint_t *current;
 current = head;
 for (i = 0; current != NULL && i < index; i++)
 current = current->next;
-return current;
+return (current);
 }
